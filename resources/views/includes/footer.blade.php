@@ -51,3 +51,25 @@
 
     </section>
 </div>
+
+<section class="social">
+    <div class="container">
+        <div class="d-flex">
+            <div>
+                <button>SIGN-UP NOW!</button>
+            </div>
+            <div class="follow-us">
+                <div>
+                    <p>FOLLOW US</p>
+                </div>
+                <div>
+                    <img src="{{ asset('images/footer-facebook.png') }}" alt="facebook">
+                    <img src="{{ asset('images/footer-twitter.png') }}" alt="twitter">
+                    <img src="{{ asset('images/footer-youtube.png') }}" alt="youtube">
+                    <img src="{{ asset('images/footer-pinterest.png') }}" alt="pinterest">
+                    <img src="{{ asset('images/footer-periscope.png') }}" alt="periscope">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
