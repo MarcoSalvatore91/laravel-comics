@@ -38,11 +38,22 @@ a {
   padding: 10px 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .nav-bar li a {
   line-height: 100px;
   color: black;
   font-size: 14px;
+}
+.nav-bar .active {
+  border-bottom: 3px solid #0282f9;
+}
+.nav-bar input {
+  padding: 0 0 0 50px;
+  width: 100px;
+  height: 20px;
+  border: 0;
+  border-bottom: 3px solid #0282f9;
 }
 
 /* Bg-header-image */

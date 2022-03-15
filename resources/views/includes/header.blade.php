@@ -22,9 +22,10 @@ $links = config('main_menu');
             <img src="{{ asset('images/dc-logo.png') }}" alt="{{ asset('images/dc-logo.png') }}">
             @foreach($links as $link)
             <li>
-                <a href="{{ route($link['route_name']) }}">{{ $link['text'] }}</a>
+                <a class="{{ request()->routeIs($link['route_name']) ? 'active' : '' }}" href="{{ route($link['route_name']) }}">{{ $link['text'] }}</a>
             </li>
             @endforeach
+            <input type="text" placeholder="Search">
         </div>
     </div>
 
