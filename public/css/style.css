@@ -93,4 +93,26 @@ a {
 .comics .loader span {
   padding: 10px 30px;
   background-color: #0282f9;
+  font-size: 12px;
+}
+
+.commerce {
+  background-color: #0282f9;
+}
+.commerce .images {
+  display: flex;
+  justify-content: space-between;
+}
+.commerce .img-commerce {
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+.commerce .img-commerce img {
+  height: 50px;
+}
+.commerce .img-commerce span {
+  font-size: 12px;
+  padding-left: 20px;
+  color: white;
 }

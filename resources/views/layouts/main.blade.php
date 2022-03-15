@@ -16,6 +16,8 @@
         @yield('content')
     </main>
 
+    @include("includes.commerce")
+
     @include("includes.footer")
 </body>
 

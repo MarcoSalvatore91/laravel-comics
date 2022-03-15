@@ -1,0 +1,20 @@
+.commerce {
+    background-color: $blue;
+    .images {
+        display: flex;
+        justify-content: space-between;
+    }
+    .img-commerce {
+        height: 120px;
+        display: flex;
+        align-items: center;
+        img {
+            height: 50px;
+        }
+        span {
+            font-size: $font-small;
+            padding-left: 20px;
+            color: $white;
+        }
+    }
+}
