@@ -1,0 +1,18 @@
+/* Section-top-header */
+
+.section-top-header {
+    background-color: $blue;
+    .info-top-header {
+        display: flex;
+        justify-content: end;
+        font-size: $font-small;
+        color: $white;
+        span {
+            padding: 0 10px;
+        }
+    }
+}
+
+.nav-bar {
+    padding: 10px 0;
+}

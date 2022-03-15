@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Font-Size */
+/* Color */
+/* Section-top-header */
+.section-top-header {
+  background-color: #0282f9;
+}
+.section-top-header .info-top-header {
+  display: flex;
+  justify-content: end;
+  font-size: 12px;
+  color: white;
+}
+.section-top-header .info-top-header span {
+  padding: 0 10px;
+}
+
+.nav-bar {
+  padding: 10px 0;
+}
