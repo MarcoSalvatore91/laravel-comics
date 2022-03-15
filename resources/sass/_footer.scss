@@ -1,0 +1,32 @@
+.bg-footer {
+    background-image: url("../images/dc-logo-bg.png"),
+        url("../images/footer-bg.jpg");
+    background-size: 400px, 100%;
+    background-position: 75% 70%;
+    background-size: 500px, 100%;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.nav-footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    width: 50%;
+    height: 280px;
+    h3 {
+        padding: 10px 0;
+        color: $white;
+    }
+    a {
+        color: grey;
+    }
+}
+
+.copyright {
+    padding-bottom: 30px;
+    p {
+        color: $grey;
+    }
+}
