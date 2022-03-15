@@ -64,3 +64,33 @@ a {
   padding: 10px 20px;
   background-color: #0282f9;
 }
+
+/* Comics */
+.comics {
+  background-color: black;
+}
+.comics .image-comics {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+.comics .image-comics li img {
+  height: 200px;
+  padding: 0 20px;
+  width: 200px;
+}
+.comics .image-comics li p {
+  margin-bottom: 40px;
+  color: white;
+  padding: 0 20px;
+  width: 200px;
+}
+.comics .loader {
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.comics .loader span {
+  padding: 10px 30px;
+  background-color: #0282f9;
+}
