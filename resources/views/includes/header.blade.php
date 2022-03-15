@@ -17,4 +17,10 @@
         </div>
     </div>
 
+    <div class="bg-header-image">
+        <div class="current-series">
+            <p>CURRENT SERIES</p>
+        </div>
+    </div>
+
 </header>

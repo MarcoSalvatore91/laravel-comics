@@ -13,6 +13,29 @@
     }
 }
 
+/* Nav-Bar */
+
 .nav-bar {
     padding: 10px 0;
+}
+
+/* Bg-header-image */
+
+.bg-header-image {
+    background-image: url("../images/jumbotron.jpg");
+    height: 400px;
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+    .current-series {
+        position: absolute;
+        bottom: -20px;
+        left: 180px;
+        font-size: $font-big;
+        font-weight: bold;
+        color: $white;
+        padding: 10px 20px;
+        background-color: $blue;
+    }
 }
