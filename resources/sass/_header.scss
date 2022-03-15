@@ -17,6 +17,15 @@
 
 .nav-bar {
     padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    li {
+        a {
+            line-height: 100px;
+            color: $black;
+            font-size: $font-medium;
+        }
+    }
 }
 
 /* Bg-header-image */

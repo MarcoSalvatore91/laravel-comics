@@ -9,6 +9,14 @@
   margin: 0 auto;
 }
 
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* Font-Size */
 /* Color */
 /* Section-top-header */
@@ -28,6 +36,13 @@
 /* Nav-Bar */
 .nav-bar {
   padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bar li a {
+  line-height: 100px;
+  color: black;
+  font-size: 14px;
 }
 
 /* Bg-header-image */
