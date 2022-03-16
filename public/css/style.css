@@ -189,3 +189,8 @@ a {
   padding-left: 20px;
   color: white;
 }
+
+.comic .bg-blue {
+  background-color: #0282f9;
+  height: 100px;
+}
