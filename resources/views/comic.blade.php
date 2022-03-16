@@ -52,6 +52,63 @@ $links = config('commerce');
 
             </div>
         </section>
+
+        <div class="bg-grey">
+            <section class="authors small-container">
+                <div class="flex-bas">
+                    <h1>Talent</h1>
+                    <div class="art">
+                        <div class="title">
+                            <h4>Art By:</h4>
+                        </div>
+
+                        <div>
+                            <p>José Luis García-López, Clay Mann, Rafael Albuquerque, Patrick Gleason, Dan Jurgens, Joe Shuster, Neal Adams, Curt Swan, John Cassaday, Olivier Coipel, Jim Lee</p>
+                        </div>
+                    </div>
+                    <div class="written">
+                        <div class="title">
+                            <h4>Written By:</h4>
+                        </div>
+
+                        <div>
+                            <p>José Luis García-López, Clay Mann, Rafael Albuquerque, Patrick Gleason, Dan Jurgens, Joe Shuster, Neal Adams, Curt Swan, John Cassaday, Olivier Coipel, Jim Lee</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-bas">
+                    <h1>Specs</h1>
+                    <div class="specs">
+                        <div class="title-specs">
+                            <h4>Series:</h4>
+                        </div>
+
+                        <div>
+                            <p>ACTION COMICS</p>
+                        </div>
+                    </div>
+                    <div class="specs">
+                        <div class="title-specs">
+                            <h4>U.S. Price:</h4>
+                        </div>
+
+                        <div>
+                            <p>$19.99</p>
+                        </div>
+                    </div>
+
+                    <div class="specs">
+                        <div class="title-specs">
+                            <h4>On Sale Date:</h4>
+                        </div>
+
+                        <div>
+                            <p>Oct 02 2018</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </section>
     </main>
 
 

@@ -38,3 +38,32 @@
         }
     }
 }
+
+.bg-grey {
+    background-color: $dark-white;
+    .authors {
+        height: 500px;
+        display: flex;
+        .flex-bas {
+            flex-basis: 50%;
+            padding-right: 40px;
+            h1 {
+                padding: 30px 0;
+            }
+            .art,
+            .written,
+            .specs {
+                display: flex;
+                padding: 20px 0;
+                border-top: 1px solid grey;
+                border-bottom: 1px solid $grey;
+                .title {
+                    width: 75%;
+                }
+                .title-specs {
+                    width: 50%;
+                }
+            }
+        }
+    }
+}

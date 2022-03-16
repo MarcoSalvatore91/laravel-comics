@@ -233,3 +233,36 @@ a {
 .comic .info-comic .adv {
   margin: 0 20px;
 }
+
+.bg-grey {
+  background-color: #f6f6f6;
+}
+.bg-grey .authors {
+  height: 500px;
+  display: flex;
+}
+.bg-grey .authors .flex-bas {
+  flex-basis: 50%;
+  padding-right: 40px;
+}
+.bg-grey .authors .flex-bas h1 {
+  padding: 30px 0;
+}
+.bg-grey .authors .flex-bas .art,
+.bg-grey .authors .flex-bas .written,
+.bg-grey .authors .flex-bas .specs {
+  display: flex;
+  padding: 20px 0;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+.bg-grey .authors .flex-bas .art .title,
+.bg-grey .authors .flex-bas .written .title,
+.bg-grey .authors .flex-bas .specs .title {
+  width: 75%;
+}
+.bg-grey .authors .flex-bas .art .title-specs,
+.bg-grey .authors .flex-bas .written .title-specs,
+.bg-grey .authors .flex-bas .specs .title-specs {
+  width: 50%;
+}
