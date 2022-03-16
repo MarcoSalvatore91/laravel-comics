@@ -34,13 +34,13 @@ $links = config('commerce');
 
                     <!-- Slider -->
                     <div class="left">
-                        <a href="">
+                        <a href="{{ route('comic', ['id' => $prev]) }}">
                             <i class="fa-solid fa-angle-left fa-4x"></i>
                         </a>
                     </div>
 
                     <div class="right">
-                        <a href="">
+                        <a href="{{ route('comic', ['id' => $next]) }}">
                             <i class="fa-solid fa-angle-right fa-4x"></i>
                         </a>
                     </div>

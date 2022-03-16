@@ -34,7 +34,10 @@ Route::get('/{id}', function ($id) {
 
     $comic = $comics[$id];
 
-    return view('comic', compact('comic'));
+    $prev = $id > 0 ? $id - 1 : count($comics) - 1;
+    $next = $id == count($comics) - 1 ? 0 : $id + 1;
+
+    return view('comic', compact('comic', 'prev', 'next'));
 })->name('comic');
 
 Route::get('/movies', function () {
