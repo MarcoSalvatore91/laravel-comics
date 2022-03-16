@@ -208,6 +208,10 @@ a {
   color: #0282f9;
 }
 
+.inline {
+  display: inline;
+}
+
 /* Comic */
 .comic .bg-blue {
   background-color: #0282f9;

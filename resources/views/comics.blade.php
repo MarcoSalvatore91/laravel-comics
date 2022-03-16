@@ -5,10 +5,12 @@
 <section class="comics">
     <div class="container">
         <ul class="image-comics">
-            @forelse($comics as $comic)
+            @forelse($comics as $index => $comic)
             <li>
                 <div>
-                    <img src="{{ $comic['thumb'] }}" alt="">
+                    <a href="{{ route('comic', ['id' => $index ]) }}">
+                        <img src="{{ $comic['thumb'] }}" alt="">
+                    </a>
                     <p>{{ $comic['series'] }}</p>
                 </div>
             </li>

@@ -24,11 +24,17 @@ Route::get('/', function () {
     return view('comics', ['comics' => $comics]);
 })->name('comics.index');
 
-Route::get('/comics', function () {
+Route::get('/{id}', function ($id) {
 
     $comics = config('comics');
 
-    return view('comic', ['comics' => $comics]);
+    if (!is_numeric($id) || $id < 0 || $id >= count($comics)) {
+        abort('404');
+    }
+
+    $comic = $comics[$id];
+
+    return view('comic', compact('comic'));
 })->name('comic');
 
 Route::get('/movies', function () {

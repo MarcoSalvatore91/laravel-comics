@@ -21,17 +21,17 @@ $links = config('commerce');
     <main>
         <section class="comic">
             <div class="bg-blue">
-                <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX" alt="">
+                <img src="{{ $comic['thumb'] }}" alt="">
             </div>
 
             <div class="small-container">
                 <div class="info-comic">
                     <div>
-                        <h1>Action Comics #1000: The Deluxe Edition</h1>
+                        <h1>{{ $comic['title'] }}</h1>
 
                         <div class="available">
                             <div class="price">
-                                <p class="grey">U.S. Price: <span class="white">$19.99</span></p>
+                                <p class="grey">U.S. Price: <span class="white">{{ $comic['price'] }}</span></p>
                                 <p class="grey">AVAILABLE</p>
                             </div>
                             <div class="check-available">
@@ -40,7 +40,7 @@ $links = config('commerce');
                         </div>
 
                         <div class="text-comic">
-                            <p>The celebration of 1,000 issues of Action Comics continues with a new, Deluxe Edition of the amazing comic that won raves when it hit comics shops in April! This hardcover includes all the stories from that issue, plus the tale by writer Paul Levitz and artist Neal Adams that appeared in the Action Comics: 80 Years Of Superman hardcover, as well as all the variant covers, design sketches by Jim Lee for Superman’s new look, scripts for the stories, the original art from the lost story featuring art by Curt Swan and more! Plus: a complete reprint of the stories that started it all—the Superman stories Action Comics #1 and 2 from 1938!</p>
+                            <p>{{ $comic['description'] }}</p>
                         </div>
                     </div>
 
@@ -63,7 +63,9 @@ $links = config('commerce');
                         </div>
 
                         <div>
-                            <p class="blue">José Luis García-López, Clay Mann, Rafael Albuquerque, Patrick Gleason, Dan Jurgens, Joe Shuster, Neal Adams, Curt Swan, John Cassaday, Olivier Coipel, Jim Lee</p>
+                            @foreach($comic['artists'] as $artist)
+                            <p class="blue inline">{{ $artist }}</p>
+                            @endforeach
                         </div>
                     </div>
                     <div class="written">
@@ -72,7 +74,9 @@ $links = config('commerce');
                         </div>
 
                         <div>
-                            <p class="blue">José Luis García-López, Clay Mann, Rafael Albuquerque, Patrick Gleason, Dan Jurgens, Joe Shuster, Neal Adams, Curt Swan, John Cassaday, Olivier Coipel, Jim Lee</p>
+                            @foreach($comic['writers'] as $writer)
+                            <p class="blue inline">{{ $writer }}</p>
+                            @endforeach
                         </div>
                     </div>
                 </div>
@@ -84,7 +88,7 @@ $links = config('commerce');
                         </div>
 
                         <div>
-                            <p class="blue">ACTION COMICS</p>
+                            <p class="blue">{{ $comic['series'] }}</p>
                         </div>
                     </div>
                     <div class="specs">
@@ -93,7 +97,7 @@ $links = config('commerce');
                         </div>
 
                         <div>
-                            <p>$19.99</p>
+                            <p>{{ $comic['price'] }}</p>
                         </div>
                     </div>
 
@@ -103,7 +107,7 @@ $links = config('commerce');
                         </div>
 
                         <div>
-                            <p>Oct 02 2018</p>
+                            <p>{{ $comic['sale_date'] }}</p>
                         </div>
                     </div>
                 </div>
