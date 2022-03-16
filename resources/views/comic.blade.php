@@ -11,6 +11,7 @@ $links = config('commerce');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
@@ -19,13 +20,31 @@ $links = config('commerce');
     @include("includes.header")
 
     <main>
+
+
+
         <section class="comic">
+
             <div class="bg-blue">
                 <img src="{{ $comic['thumb'] }}" alt="">
             </div>
 
             <div class="small-container">
                 <div class="info-comic">
+
+                    <!-- Slider -->
+                    <div class="left">
+                        <a href="">
+                            <i class="fa-solid fa-angle-left fa-4x"></i>
+                        </a>
+                    </div>
+
+                    <div class="right">
+                        <a href="">
+                            <i class="fa-solid fa-angle-right fa-4x"></i>
+                        </a>
+                    </div>
+
                     <div>
                         <h1>{{ $comic['title'] }}</h1>
 
@@ -54,6 +73,7 @@ $links = config('commerce');
         </section>
 
         <div class="bg-grey">
+
             <section class="authors small-container">
                 <div class="flex-bas">
                     <h1>Talent</h1>

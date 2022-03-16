@@ -16,6 +16,19 @@
     display: inline;
 }
 
+/* Slider */
+
+.left {
+    position: absolute;
+    left: -80px;
+}
+
+.right {
+    position: absolute;
+    right: -40px;
+    top: 38%;
+}
+
 /* Comic */
 
 .comic {
@@ -30,6 +43,7 @@
         }
     }
     .info-comic {
+        position: relative;
         height: 500px;
         display: flex;
         justify-content: space-around;
