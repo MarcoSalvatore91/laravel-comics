@@ -193,4 +193,13 @@ a {
 .comic .bg-blue {
   background-color: #0282f9;
   height: 100px;
+  position: relative;
+}
+.comic .bg-blue img {
+  position: absolute;
+  top: -220px;
+  left: 210px;
+}
+.comic .info-comic {
+  height: 500px;
 }

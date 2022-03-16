@@ -2,5 +2,14 @@
     .bg-blue {
         background-color: $blue;
         height: 100px;
+        position: relative;
+        img {
+            position: absolute;
+            top: -220px;
+            left: 210px;
+        }
+    }
+    .info-comic {
+        height: 500px;
     }
 }
