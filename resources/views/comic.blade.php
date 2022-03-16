@@ -31,15 +31,15 @@ $links = config('commerce');
 
                         <div class="available">
                             <div class="price">
-                                <p>U.S. Price: <span>$19.99</span></p>
-                                <p>AVAILABLE</p>
+                                <p class="grey">U.S. Price: <span class="white">$19.99</span></p>
+                                <p class="grey">AVAILABLE</p>
                             </div>
                             <div class="check-available">
-                                <p>Check Availability</p>
+                                <p class="white">Check Availability</p>
                             </div>
                         </div>
 
-                        <div>
+                        <div class="text-comic">
                             <p>The celebration of 1,000 issues of Action Comics continues with a new, Deluxe Edition of the amazing comic that won raves when it hit comics shops in April! This hardcover includes all the stories from that issue, plus the tale by writer Paul Levitz and artist Neal Adams that appeared in the Action Comics: 80 Years Of Superman hardcover, as well as all the variant covers, design sketches by Jim Lee for Superman’s new look, scripts for the stories, the original art from the lost story featuring art by Curt Swan and more! Plus: a complete reprint of the stories that started it all—the Superman stories Action Comics #1 and 2 from 1938!</p>
                         </div>
                     </div>
@@ -63,7 +63,7 @@ $links = config('commerce');
                         </div>
 
                         <div>
-                            <p>José Luis García-López, Clay Mann, Rafael Albuquerque, Patrick Gleason, Dan Jurgens, Joe Shuster, Neal Adams, Curt Swan, John Cassaday, Olivier Coipel, Jim Lee</p>
+                            <p class="blue">José Luis García-López, Clay Mann, Rafael Albuquerque, Patrick Gleason, Dan Jurgens, Joe Shuster, Neal Adams, Curt Swan, John Cassaday, Olivier Coipel, Jim Lee</p>
                         </div>
                     </div>
                     <div class="written">
@@ -72,7 +72,7 @@ $links = config('commerce');
                         </div>
 
                         <div>
-                            <p>José Luis García-López, Clay Mann, Rafael Albuquerque, Patrick Gleason, Dan Jurgens, Joe Shuster, Neal Adams, Curt Swan, John Cassaday, Olivier Coipel, Jim Lee</p>
+                            <p class="blue">José Luis García-López, Clay Mann, Rafael Albuquerque, Patrick Gleason, Dan Jurgens, Joe Shuster, Neal Adams, Curt Swan, John Cassaday, Olivier Coipel, Jim Lee</p>
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@ $links = config('commerce');
                         </div>
 
                         <div>
-                            <p>ACTION COMICS</p>
+                            <p class="blue">ACTION COMICS</p>
                         </div>
                     </div>
                     <div class="specs">
@@ -107,8 +107,29 @@ $links = config('commerce');
                         </div>
                     </div>
                 </div>
+            </section>
+
+            <section class="e-commerce">
+                <div class="shop small-container">
+                    <div class="commerce-item">
+                        <span>DIGITAL COMICS</span>
+                        <img src="{{ asset('images/buy-comics-digital-comics.png') }}" alt="digital-comics">
+                    </div>
+                    <div class="commerce-item">
+                        <span>SHOP DC</span>
+                        <img src="{{ asset('images/buy-comics-subscriptions.png') }}" alt="merchandise">
+                    </div>
+                    <div class="commerce-item">
+                        <span>COMIC SHOP LOCATOR</span>
+                        <img src="{{ asset('images/buy-comics-shop-locator.png') }}" alt="locator">
+                    </div>
+                    <div class="commerce-item">
+                        <span>SUBSCRIPITIONS</span>
+                        <img src="{{ asset('images/buy-comics-merchandise.png') }}" alt="subscriptions">
+                    </div>
+                </div>
+            </section>
         </div>
-        </section>
     </main>
 
 

@@ -1,3 +1,19 @@
+/* Utils */
+
+.grey {
+    color: $grey;
+}
+
+.white {
+    color: $white;
+}
+
+.blue {
+    color: $blue;
+}
+
+/* Comic */
+
 .comic {
     .bg-blue {
         background-color: $blue;
@@ -33,8 +49,17 @@
                 padding-right: 20px;
             }
         }
+        .text-comic {
+            p {
+                line-height: 25px;
+            }
+        }
         .adv {
             margin: 0 20px;
+            h3 {
+                position: relative;
+                left: 150px;
+            }
         }
     }
 }
@@ -55,13 +80,35 @@
             .specs {
                 display: flex;
                 padding: 20px 0;
-                border-top: 1px solid grey;
-                border-bottom: 1px solid $grey;
+                border-top: 1px solid $light-grey;
+                border-bottom: 1px solid $light-grey;
                 .title {
                     width: 75%;
                 }
                 .title-specs {
                     width: 50%;
+                }
+            }
+        }
+    }
+
+    .e-commerce {
+        border: 1px solid $light-grey;
+        .shop {
+            display: flex;
+            flex-basis: 25%;
+            justify-content: space-between;
+            .commerce-item {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                flex-grow: 1;
+                padding: 20px;
+                border-right: 1px solid $light-grey;
+                border-left: 1px solid $light-grey;
+                img {
+                    height: 50px;
+                    filter: invert(50%);
                 }
             }
         }

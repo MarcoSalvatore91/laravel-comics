@@ -195,6 +195,20 @@ a {
   color: white;
 }
 
+/* Utils */
+.grey {
+  color: grey;
+}
+
+.white {
+  color: white;
+}
+
+.blue {
+  color: #0282f9;
+}
+
+/* Comic */
 .comic .bg-blue {
   background-color: #0282f9;
   height: 100px;
@@ -230,8 +244,15 @@ a {
   padding: 20px 0;
   padding-right: 20px;
 }
+.comic .info-comic .text-comic p {
+  line-height: 25px;
+}
 .comic .info-comic .adv {
   margin: 0 20px;
+}
+.comic .info-comic .adv h3 {
+  position: relative;
+  left: 150px;
 }
 
 .bg-grey {
@@ -253,8 +274,8 @@ a {
 .bg-grey .authors .flex-bas .specs {
   display: flex;
   padding: 20px 0;
-  border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
 }
 .bg-grey .authors .flex-bas .art .title,
 .bg-grey .authors .flex-bas .written .title,
@@ -265,4 +286,25 @@ a {
 .bg-grey .authors .flex-bas .written .title-specs,
 .bg-grey .authors .flex-bas .specs .title-specs {
   width: 50%;
+}
+.bg-grey .e-commerce {
+  border: 1px solid #ebebeb;
+}
+.bg-grey .e-commerce .shop {
+  display: flex;
+  flex-basis: 25%;
+  justify-content: space-between;
+}
+.bg-grey .e-commerce .shop .commerce-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-grow: 1;
+  padding: 20px;
+  border-right: 1px solid #ebebeb;
+  border-left: 1px solid #ebebeb;
+}
+.bg-grey .e-commerce .shop .commerce-item img {
+  height: 50px;
+  filter: invert(50%);
 }
